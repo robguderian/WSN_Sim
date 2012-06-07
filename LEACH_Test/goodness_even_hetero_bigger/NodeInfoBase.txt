@@ -1,0 +1,21 @@
+configName 				goodnessEvenHetero
+[sensor normal]
+count					2000
+messageQueueSize		100
+sensorReadingFreq		4000
+sensorMission			0.80
+battery                                 500
+
+
+
+[sensor router]
+#count					225
+#count					256
+count					324
+sensorReadingFreq		0
+battery					7500
+messageQueueSize		2000
+sensorMission			0
+care_if_alive	false
+evenlySpace                     true
+

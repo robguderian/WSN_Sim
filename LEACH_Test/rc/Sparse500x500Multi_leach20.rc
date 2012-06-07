@@ -1,0 +1,25 @@
+
+
+screen ssh rookery "cd projects/LEACH_Test ; ./runleach_multi.sh Sparse500x500SuboptimalNoSleep.txt multi_20/multi_20_01.txt"
+screen ssh eagle "cd projects/LEACH_Test ; ./runleach_multi.sh Sparse500x500SuboptimalNoSleep.txt multi_20/multi_20_02.txt"
+screen ssh sparrow "cd projects/LEACH_Test ; ./runleach_multi.sh Sparse500x500SuboptimalNoSleep.txt multi_20/multi_20_03.txt"
+screen ssh robin "cd projects/LEACH_Test ; ./runleach_multi.sh Sparse500x500SuboptimalNoSleep.txt multi_20/multi_20_04.txt"
+screen ssh finch "cd projects/LEACH_Test ; ./runleach_multi.sh Sparse500x500SuboptimalNoSleep.txt multi_20/multi_20_05.txt"
+screen ssh duck "cd projects/LEACH_Test ; ./runleach_multi.sh Sparse500x500SuboptimalNoSleep.txt multi_20/multi_20_06.txt"
+screen ssh grouse "cd projects/LEACH_Test ; ./runleach_multi.sh Sparse500x500SuboptimalNoSleep.txt multi_20/multi_20_07.txt"
+screen ssh finch "cd projects/LEACH_Test ; ./runleach_multi.sh Sparse500x500SuboptimalNoSleep.txt multi_20/multi_20_08.txt"
+screen ssh killdeer "cd projects/LEACH_Test ; ./runleach_multi.sh Sparse500x500SuboptimalNoSleep.txt multi_20/multi_20_09.txt"
+screen ssh heron "cd projects/LEACH_Test ; ./runleach_multi.sh Sparse500x500SuboptimalNoSleep.txt multi_20/multi_20_10.txt"
+
+
+screen ssh grebe "cd projects/LEACH_Test ; ./runleach_multi.sh Sparse500x500SuboptimalNoSleep.txt multi_20/multi_20_11.txt"
+screen ssh cormorant "cd projects/LEACH_Test ; ./runleach_multi.sh Sparse500x500SuboptimalNoSleep.txt multi_20/multi_20_12.txt"
+screen ssh sandpiper "cd projects/LEACH_Test ; ./runleach_multi.sh Sparse500x500SuboptimalNoSleep.txt multi_20/multi_20_13.txt"
+screen ssh woodpecker "cd projects/LEACH_Test ; ./runleach_multi.sh Sparse500x500SuboptimalNoSleep.txt multi_20/multi_20_14.txt"
+screen ssh wren "cd projects/LEACH_Test ; ./runleach_multi.sh Sparse500x500SuboptimalNoSleep.txt multi_20/multi_20_15.txt"
+screen ssh crow "cd projects/LEACH_Test ; ./runleach_multi.sh Sparse500x500SuboptimalNoSleep.txt multi_20/multi_20_16.txt"
+screen ssh oriole "cd projects/LEACH_Test ; ./runleach_multi.sh Sparse500x500SuboptimalNoSleep.txt multi_20/multi_20_17.txt"
+screen ssh pelican "cd projects/LEACH_Test ; ./runleach_multi.sh Sparse500x500SuboptimalNoSleep.txt multi_20/multi_20_18.txt"
+screen ssh falcon "cd projects/LEACH_Test ; ./runleach_multi.sh Sparse500x500SuboptimalNoSleep.txt multi_20/multi_20_19.txt"
+screen ssh osprey "cd projects/LEACH_Test ; ./runleach_multi.sh Sparse500x500SuboptimalNoSleep.txt multi_20/multi_20_10.txt"
+screen bash

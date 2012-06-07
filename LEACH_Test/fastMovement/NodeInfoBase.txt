@@ -1,0 +1,10 @@
+[sensor normal]
+count					1000
+battery			1000
+messageQueueSize	50
+
+[sensor router]
+count		100
+sensorReadingFreq	0
+battery			2000
+messageQueueSize	100

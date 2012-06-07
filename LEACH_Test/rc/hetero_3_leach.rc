@@ -1,0 +1,10 @@
+screen ssh rookery "cd projects/LEACH_Test ; ./runleach.sh hetero_3types/testRealisticBase.txt hetero_3types/10ch-10sub-120freq.txt hetero_3types/NodeInfoBase.txt"
+screen ssh eagle "cd projects/LEACH_Test ; ./runleach.sh hetero_3types/testRealisticBase.txt hetero_3types/10ch-10sub-240freq.txt hetero_3types/NodeInfoBase.txt"
+screen ssh sparrow "cd projects/LEACH_Test ; ./runleach.sh hetero_3types/testRealisticBase.txt hetero_3types/10ch-10sub-360freq.txt hetero_3types/NodeInfoBase.txt"
+screen ssh robin "cd projects/LEACH_Test ; ./runleach.sh hetero_3types/testRealisticBase.txt hetero_3types/30ch-10sub-120freq.txt hetero_3types/NodeInfoBase.txt"
+screen ssh finch "cd projects/LEACH_Test ; ./runleach.sh hetero_3types/testRealisticBase.txt hetero_3types/30ch-10sub-240freq.txt hetero_3types/NodeInfoBase.txt"
+screen ssh duck "cd projects/LEACH_Test ; ./runleach.sh hetero_3types/testRealisticBase.txt hetero_3types/30ch-10sub-360freq.txt hetero_3types/NodeInfoBase.txt"
+screen ssh grouse "cd projects/LEACH_Test ; ./runleach.sh hetero_3types/testRealisticBase.txt hetero_3types/50ch-10sub-120freq.txt hetero_3types/NodeInfoBase.txt"
+screen ssh killdeer "cd projects/LEACH_Test ; ./runleach.sh hetero_3types/testRealisticBase.txt hetero_3types/50ch-10sub-240freq.txt hetero_3types/NodeInfoBase.txt"
+screen ssh heron "cd projects/LEACH_Test ; ./runleach.sh hetero_3types/testRealisticBase.txt hetero_3types/50ch-10sub-360freq.txt hetero_3types/NodeInfoBase.txt"
+screen bash

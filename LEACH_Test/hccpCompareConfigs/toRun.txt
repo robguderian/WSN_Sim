@@ -1,0 +1,6 @@
+./runhccp_multi_one_config_simple.sh hccpCompareConfigs/testRealisticBase.txt  hccpCompareConfigs/NodeInfoBase.txt hccpCompareConfigs/expensiveLiveLonger/weights.txt reps/100.txt
+./runhccp_multi_one_config_simple.sh hccpCompareConfigs/testRealisticBase.txt  hccpCompareConfigs/NodeInfoBase.txt hccpCompareConfigs/improveAvgLife/weights.txt reps/100.txt 
+./runhccp_multi_one_config_simple.sh hccpCompareConfigs/testRealisticBase.txt  hccpCompareConfigs/NodeInfoBase.txt hccpCompareConfigs/improveAvgLife-dutyCycle/weights.txt reps/100.txt 
+./runhccp_multi_one_config_simple.sh hccpCompareConfigs/testRealisticBase.txt  hccpCompareConfigs/NodeInfoBase.txt hccpCompareConfigs/lessMessagesLost/weights.txt reps/100.txt
+
+./runleach_one_config_simple.sh hccpCompareConfigs/testRealisticBase.txt  hccpCompareConfigs/NodeInfoBase.txt hccpCompareConfigs/lessMessagesLost/weights.txt reps/100.txt 

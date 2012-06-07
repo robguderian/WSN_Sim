@@ -1,0 +1,7 @@
+screen ssh grouse "cd projects/LEACH_Test/ ; ./runhccp.sh testRealistic20-40-all.txt"
+screen ssh killdeer "cd projects/LEACH_Test/ ; ./runhccp.sh testRealistic20-50-all.txt"
+screen ssh heron "cd projects/LEACH_Test/ ; ./runhccp.sh testRealistic20-60-all.txt"
+screen ssh grebe "cd projects/LEACH_Test/ ; ./runhccp.sh testRealistic20-70-all.txt"
+screen ssh cormorant "cd projects/LEACH_Test/ ; ./runhccp.sh testRealistic20-80-all.txt"
+screen ssh crow "cd projects/LEACH_Test/ ; ./runhccp.sh testRealistic20-90-all.txt"
+bash

@@ -1,0 +1,3 @@
+chChanceFrom		0.01
+chChanceTo			0.20
+chChanceIncrement	0.01

@@ -1,0 +1,14 @@
+[sensor normal]
+count					1000
+battery			1000
+messageQueueSize	50
+sensorMission		0.25
+
+[sensor router]
+count		100
+sensorReadingFreq	0
+battery			2000
+messageQueueSize	100
+sensorMission		1
+evenlySpace                     true
+

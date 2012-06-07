@@ -1,0 +1,9 @@
+configName				lessMessagesLost
+
+# change the balance of the election
+hccp_sensor_mission_weight  0.0
+hccp_message_queue_weight   0.9
+hccp_battery_power_weight   0.1
+hccp_random_weight          0.0
+hccp_duty_cycle_weight		0.0
+	

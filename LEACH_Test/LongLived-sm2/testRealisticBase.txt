@@ -1,0 +1,78 @@
+
+configName				realisticSubNoSleep20-10-all
+simTime					999999999
+runUntilPercDead			1	
+
+
+moveBasestation			false  
+basestationSpeed		0
+basestationUpdateSpeed	0
+
+
+
+
+baud					54000
+
+verbose					false
+
+battery					5000
+
+# for the valid space
+maxX					400
+maxY					400
+
+
+#only valid once
+baseStationX			200
+baseStationY  			200
+
+#leach_SLEEP should seperate?
+SLEEP_TIME					300
+
+SLEEP_NO_RECLUSTER_TIME		300 # should usually match with sleep time... more consistent with LEACH 
+	
+
+
+
+
+sensorReadingFreq		600
+
+clusterheadChance		0.20
+
+#hccp things
+suboptimalClusterheadPercentage 0.10
+allowSinkSleep				false	
+hccp_autorebeacon 			true
+hccp_rebeaconPercentage		0.5			
+hccp_all_clusterheads 		true
+hccp_firstorder_suboptimal 	true
+hccp_firstorder_sub_perc	0.3
+hccp_allow_firstorder_ch	true
+hccp_firstorder_ch_perc		0.5
+
+hccp_basestation_beacon		0.3
+
+allowSuboptimalClusterheads true
+
+
+messageQueueSize		100
+
+#HCCP stuff
+
+RECLUSTER_TIME 				0.100
+CHOOSE_CLUSTERHEAD_TIME		0.100
+WAIT_FOR_SCHEDULE_TIME		0.100
+TOTAL_RUN_TIME				5
+ROUNDTABLE_TIME				0.25 
+NUMBER_OF_SCHEDULED_RUNS  	1
+	
+leach_cheat_routing			false
+hccp_cheat_routing			false
+
+
+hccp_sensor_mission_weight  0.5
+hccp_message_queue_weight   0.2
+hccp_battery_power_weight   0.1
+hccp_random_weight          0.1
+hccp_duty_cycle_weight		0.1
+

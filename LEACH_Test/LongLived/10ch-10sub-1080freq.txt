@@ -1,0 +1,11 @@
+
+configName				10ch-10sb-LongLived
+
+sensorReadingFreq		1200  # currently double the sleep time
+
+clusterheadChance		0.10
+
+#hccp things
+suboptimalClusterheadPercentage 0.10
+
+hccp_all_clusterheads 		false

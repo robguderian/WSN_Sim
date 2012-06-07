@@ -1,0 +1,28 @@
+# for multi runs
+chChanceFrom		0.25
+chChanceTo			0.3
+chChanceIncrement	0.01
+subFrom				0.01
+subTo				1
+subIncrement		0.01
+
+writeCharts 		false
+runUntilPercDead		1
+writeNodeData		false
+
+# for the goodness runs. Ignored otherwise.
+batteryPowerFrom		0.25
+batteryPowerTo			0.3
+batteryPowerIncrement	0.05
+
+sensorFrom             0
+sensorTo               0.3
+sensorIncrement        0.05
+
+networkSizeStart		1000
+networkSizeTo			1200
+networkSizeIncrement	10
+
+freqFrom		2400
+freqTo			2800
+freqIncrement	10

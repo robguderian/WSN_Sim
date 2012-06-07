@@ -1,0 +1,11 @@
+
+configName				goodnessEvenHetero
+
+sensorReadingFreq		960
+
+clusterheadChance		0.10
+
+#hccp things
+suboptimalClusterheadPercentage 0.10
+
+hccp_all_clusterheads 		true

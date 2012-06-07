@@ -1,0 +1,20 @@
+[sensor normal]
+count					100
+battery					1000
+messageQueueSize		100
+sensorMission			1
+sensorReadingFreq		100
+#hccp_firstorder_ch_perc 0.005
+#clusterheadChance	0.005
+#suboptimalClusterheadPercentage	0.05
+
+[sensor router]
+count					20
+sensorReadingFreq		0
+battery					2500
+messageQueueSize		2000
+sensorMission			0
+#suboptimalClusterheadPercentage 0.9
+#clusterheadChance	0.30
+#hccp_firstorder_ch_perc 0.5
+care_if_alive	false

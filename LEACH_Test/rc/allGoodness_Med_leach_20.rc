@@ -1,0 +1,25 @@
+screen ssh agouti "cd projects/LEACH_Test ; ./runleach_multi.sh goodness_even_hetero/testRealisticBase.txt goodness_even_hetero/10ch-10sub-1080freq.txt goodness_even_hetero/NodeInfoBase.txt multi_20/multi_20_01.txt reps/50.txt"
+screen ssh beaver "cd projects/LEACH_Test ; ./runleach_multi.sh goodness_even_hetero/testRealisticBase.txt goodness_even_hetero/10ch-10sub-1080freq.txt goodness_even_hetero/NodeInfoBase.txt multi_20/multi_20_02.txt reps/50.txt"
+screen ssh capybara "cd projects/LEACH_Test ; ./runleach_multi.sh goodness_even_hetero/testRealisticBase.txt goodness_even_hetero/10ch-10sub-1080freq.txt goodness_even_hetero/NodeInfoBase.txt multi_20/multi_20_03.txt reps/50.txt"
+screen ssh chinchilla "cd projects/LEACH_Test ; ./runleach_multi.sh goodness_even_hetero/testRealisticBase.txt goodness_even_hetero/10ch-10sub-1080freq.txt goodness_even_hetero/NodeInfoBase.txt multi_20/multi_20_04.txt reps/50.txt"
+screen ssh chipmunk "cd projects/LEACH_Test ; ./runleach_multi.sh goodness_even_hetero/testRealisticBase.txt goodness_even_hetero/10ch-10sub-1080freq.txt goodness_even_hetero/NodeInfoBase.txt multi_20/multi_20_05.txt reps/50.txt"
+screen ssh degu "cd projects/LEACH_Test ; ./runleach_multi.sh goodness_even_hetero/testRealisticBase.txt goodness_even_hetero/10ch-10sub-1080freq.txt goodness_even_hetero/NodeInfoBase.txt multi_20/multi_20_06.txt reps/50.txt"
+screen ssh gerbil "cd projects/LEACH_Test ; ./runleach_multi.sh goodness_even_hetero/testRealisticBase.txt goodness_even_hetero/10ch-10sub-1080freq.txt goodness_even_hetero/NodeInfoBase.txt multi_20/multi_20_07.txt reps/50.txt"
+screen ssh gopher "cd projects/LEACH_Test ; ./runleach_multi.sh goodness_even_hetero/testRealisticBase.txt goodness_even_hetero/10ch-10sub-1080freq.txt goodness_even_hetero/NodeInfoBase.txt multi_20/multi_20_08.txt reps/50.txt"
+screen ssh hamster "cd projects/LEACH_Test ; ./runleach_multi.sh goodness_even_hetero/testRealisticBase.txt goodness_even_hetero/10ch-10sub-1080freq.txt goodness_even_hetero/NodeInfoBase.txt multi_20/multi_20_09.txt reps/50.txt"
+screen ssh guineapig "cd projects/LEACH_Test ; ./runleach_multi.sh goodness_even_hetero/testRealisticBase.txt goodness_even_hetero/10ch-10sub-1080freq.txt goodness_even_hetero/NodeInfoBase.txt multi_20/multi_20_10.txt reps/50.txt"
+
+screen ssh rat "cd projects/LEACH_Test ; ./runleach_multi.sh goodness_even_hetero/testRealisticBase.txt goodness_even_hetero/10ch-10sub-1080freq.txt goodness_even_hetero/NodeInfoBase.txt multi_20/multi_20_11.txt reps/50.txt"
+screen ssh prairiedog "cd projects/LEACH_Test ; ./runleach_multi.sh goodness_even_hetero/testRealisticBase.txt goodness_even_hetero/10ch-10sub-1080freq.txt goodness_even_hetero/NodeInfoBase.txt multi_20/multi_20_12.txt reps/50.txt"
+screen ssh hedgehog "cd projects/LEACH_Test ; ./runleach_multi.sh goodness_even_hetero/testRealisticBase.txt goodness_even_hetero/10ch-10sub-1080freq.txt goodness_even_hetero/NodeInfoBase.txt multi_20/multi_20_13.txt reps/50.txt"
+screen ssh woodchuck "cd projects/LEACH_Test ; ./runleach_multi.sh goodness_even_hetero/testRealisticBase.txt goodness_even_hetero/10ch-10sub-1080freq.txt goodness_even_hetero/NodeInfoBase.txt multi_20/multi_20_14.txt reps/50.txt"
+screen ssh groundhog "cd projects/LEACH_Test ; ./runleach_multi.sh goodness_even_hetero/testRealisticBase.txt goodness_even_hetero/10ch-10sub-1080freq.txt goodness_even_hetero/NodeInfoBase.txt multi_20/multi_20_15.txt reps/50.txt"
+screen ssh hamster "cd projects/LEACH_Test ; ./runleach_multi.sh goodness_even_hetero/testRealisticBase.txt goodness_even_hetero/10ch-10sub-1080freq.txt goodness_even_hetero/NodeInfoBase.txt multi_20/multi_20_16.txt reps/50.txt"
+screen ssh lemming "cd projects/LEACH_Test ; ./runleach_multi.sh goodness_even_hetero/testRealisticBase.txt goodness_even_hetero/10ch-10sub-1080freq.txt goodness_even_hetero/NodeInfoBase.txt multi_20/multi_20_17.txt reps/50.txt"
+screen ssh marmot "cd projects/LEACH_Test ; ./runleach_multi.sh goodness_even_hetero/testRealisticBase.txt goodness_even_hetero/10ch-10sub-1080freq.txt goodness_even_hetero/NodeInfoBase.txt multi_20/multi_20_18.txt reps/50.txt"
+screen ssh mouse "cd projects/LEACH_Test ; ./runleach_multi.sh goodness_even_hetero/testRealisticBase.txt goodness_even_hetero/10ch-10sub-1080freq.txt goodness_even_hetero/NodeInfoBase.txt multi_20/multi_20_19.txt reps/50.txt"
+screen ssh muskrat "cd projects/LEACH_Test ; ./runleach_multi.sh goodness_even_hetero/testRealisticBase.txt goodness_even_hetero/10ch-10sub-1080freq.txt goodness_even_hetero/NodeInfoBase.txt multi_20/multi_20_20.txt reps/50.txt"
+
+
+screen bash
+

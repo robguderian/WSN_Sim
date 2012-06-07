@@ -1,0 +1,6 @@
+screen ssh cormorant "cd tempProject ; ./runhccp2Config.sh One-offs/SensorSmall/testRealisticBase.txt One-offs/SensorSmall/NodeInfoBase.txt One-offs/SensorSmall/p1.txt reps/1.txt Battery002.txt skipCC.txt"
+screen ssh crow "cd tempProject ; ./runhccp2Config.sh One-offs/SensorSmall/testRealisticBase.txt One-offs/SensorSmall/NodeInfoBase.txt One-offs/SensorSmall/p2.txt reps/1.txt Battery002.txt skipCC.txt"
+screen ssh sandpiper "cd tempProject ; ./runhccp2Config.sh One-offs/SensorSmall/testRealisticBase.txt One-offs/SensorSmall/NodeInfoBase.txt One-offs/SensorSmall/p3.txt reps/1.txt Battery002.txt skipCC.txt"
+screen ssh owl "cd tempProject ; ./runhccp2Config.sh One-offs/SensorSmall/testRealisticBase.txt One-offs/SensorSmall/NodeInfoBase.txt One-offs/SensorSmall/p4.txt reps/1.txt Battery002.txt skipCC.txt"
+
+screen bash

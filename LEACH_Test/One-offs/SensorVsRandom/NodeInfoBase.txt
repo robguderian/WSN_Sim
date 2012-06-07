@@ -1,0 +1,45 @@
+[sensor normal]
+count					500
+messageQueueSize		100
+sensorReadingFreq		4000
+sensorMission			0.1
+battery                 400
+care_if_alive           true
+
+
+[sensor router]
+count 		81
+sensorReadingFreq		0
+battery				600		
+messageQueueSize		2000
+sensorMission			0
+care_if_alive           false
+evenlySpace             true
+care_if_alive           true
+
+
+[sensor expensive]
+count					50
+sensorReadingFreq		4000
+battery					300
+messageQueueSize		1000
+sensorMission			0.9
+care_if_alive           true
+
+
+[sensor veryExpensive]
+count					25
+sensorReadingFreq		4000
+battery					250
+messageQueueSize		2000
+sensorMission			0.95
+care_if_alive           true
+
+[sensor superExpensive]
+count					15
+sensorReadingFreq		4000
+battery					200
+messageQueueSize		500
+sensorMission			1
+care_if_alive           true
+

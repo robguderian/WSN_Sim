@@ -1,0 +1,6 @@
+screen ssh pelican "cd projects/LEACH_Test ; ./runhccp.sh LongLived-med/testRealisticBase.txt LongLived-med/all-50ch-10sub-960freq.txt LongLived-med/NodeInfoBase.txt "
+screen ssh grebe "cd projects/LEACH_Test ;./runhccp.sh LongLived-med/testRealisticBase.txt LongLived-med/10ch-10sub-1080freq.txt LongLived-med/NodeInfoBase.txt "
+
+screen ssh falcon "cd projects/LEACH_Test ;./runleach.sh LongLived-med/testRealisticBase.txt LongLived-med/10ch-10sub-1080freq.txt LongLived-med/NodeInfoBase.txt "
+screen bash
+

@@ -1,0 +1,86 @@
+
+configName				Sparse500x500SuboptimalNoSleep
+simTime					999999999
+baud					54000
+runUntilPercDead			0.2
+
+
+hccp_leach					false
+hccp_goodness				true
+hccp_all_clusterheads 		false
+
+verbose					false
+
+battery					500
+
+# for the valid space
+maxX					500	
+maxY					500	
+
+hccp_leach			false
+hccp_goodness			true
+hccp_all_clusterheads 		false
+
+#only valid once
+baseStationX			250
+baseStationY  			250
+
+moveBasestation		false	
+
+sensorReadingFreq		60
+
+clusterheadChance		0.30
+suboptimalClusterheadPercentage 1
+
+#hccp things
+hccp_beacon					true
+hccp_autorebeacon 			true
+hccp_rebeaconPercentage		0.5			
+hccp_firstorder_suboptimal  false
+hccp_firstorder_sub_perc	0.99
+allowSuboptimalClusterheads true
+hccp_allow_firstorder_ch	false
+hccp_firstorder_ch_perc		0.25
+hccp_basestation_beacon		0.25  #what percentage of roundtables should the bs beacon
+
+
+messageQueueSize		999999999
+
+#HCCP stuff
+
+RECLUSTER_TIME 				0.300
+CHOOSE_CLUSTERHEAD_TIME		0.300
+WAIT_FOR_SCHEDULE_TIME		0.300
+TOTAL_RUN_TIME				10
+ROUNDTABLE_TIME				1
+NUMBER_OF_SCHEDULED_RUNS  	1
+
+# these should add up to 1
+hccp_sensor_mission_weight  0.4
+hccp_message_queue_weight   0.2
+hccp_battery_power_weight   0.2
+hccp_random_weight          0.1
+hccp_duty_cycle_weight		0.1
+
+reliableTime				2  #that's in seconds
+
+sensorMission				1 #100% - will be overridden.
+
+
+
+leach_cheat_routing			true
+hccp_cheat_routing			true
+
+SLEEP_TIME					600 # 10 minutes
+SLEEP_NO_RECLUSTER_TIME		600 # should usually match with sleep time...
+#more consistent with LEACH
+leach_SLEEP					600
+
+writeCharts 		false
+writeNodeData		false
+
+snapshotWaitTime		3600
+
+#must be after new defaults
+[sensor normal]
+count					200

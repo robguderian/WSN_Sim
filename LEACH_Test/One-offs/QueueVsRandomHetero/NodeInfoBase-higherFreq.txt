@@ -1,0 +1,21 @@
+configName 			QueueVsRandom	
+[sensor normal]
+count					500
+messageQueueSize		500
+sensorReadingFreq		2000
+sensorMission			0.80
+battery                                 400
+
+
+
+[sensor router]
+#count					225
+#count					256
+count					81  #9^2 on a 1000x1000. could do 8^2, but this gives better coverage
+sensorReadingFreq		0
+battery					600
+messageQueueSize		2000
+sensorMission			0
+care_if_alive	true
+evenlySpace                     true
+

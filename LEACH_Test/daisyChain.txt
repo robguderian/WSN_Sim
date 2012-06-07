@@ -1,0 +1,86 @@
+
+configName				DaisyChain
+
+baud				54000
+
+
+verbose					false
+
+battery					10000
+
+# for the valid space
+maxX					200	
+maxY					200	
+
+
+#only valid once
+baseStationX			0
+baseStationY  			0
+
+sensorReadingFreq		60
+
+clusterheadChance		0.25
+
+messageQueueSize		100
+
+#HCCP stuff
+
+RECLUSTER_TIME 				0.300
+CHOOSE_CLUSTERHEAD_TIME		0.300
+WAIT_FOR_SCHEDULE_TIME		0.300
+TOTAL_RUN_TIME				60
+ROUNDTABLE_TIME				5 
+NUMBER_OF_SCHEDULED_RUNS  	5
+	
+#LEACH stuff
+#RECLUSTER_TIME				0.300
+#CHOOSE_CLUSTERHEAD_TIME		0.300
+#WAIT_FOR_SCHEDULE_TIME		0.300
+#TOTAL_RUN_TIME				300
+
+#must be after new defaults
+[sensor first]
+baud					54000
+range					100
+battery					1000
+onDraw					2
+offDraw					0.5
+count					1
+messageQueueSize		50
+sensorReadingFreq		60
+
+minX					75
+minY					0
+maxX					75	
+maxY					0
+
+[sensor second]
+baud					54000
+range					100
+battery					1000
+onDraw					2
+offDraw					0.5
+count					1
+messageQueueSize		50
+sensorReadingFreq		60
+
+minX					150
+minY					0
+maxX					150	
+maxY					0
+
+[sensor third]
+baud					54000
+range					100
+battery					1000
+onDraw					2
+offDraw					0.5
+count					1
+messageQueueSize		50
+sensorReadingFreq		60
+
+minX					225
+minY					0
+maxX					225	
+maxY					0
+

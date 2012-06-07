@@ -1,0 +1,61 @@
+
+configName				realisticSubNoSleep20-10-all
+simTime					999999999
+runUntilPercDead		0.1
+
+baud					54000
+
+verbose					false
+
+battery					2000
+
+# for the valid space
+maxX					2000	
+maxY					2000	
+
+
+#only valid once
+baseStationX			1000
+baseStationY  			1000
+
+moveBasestation			false  
+basestationSpeed		0   # this is in space units / second
+basestationUpdateSpeed	0	 # how many times a second should the position be updated?
+
+
+
+sensorReadingFreq		1200
+
+clusterheadChance		0.20
+
+suboptimalClusterheadPercentage 0.05
+allowSuboptimalClusterheads 	true
+
+#hccp things
+suboptimalClusterheadPercentage 0.10
+allowSinkSleep					true
+hccp_autorebeacon 			true
+hccp_rebeaconPercentage		0.5			
+hccp_all_clusterheads 		true
+hccp_firstorder_suboptimal  true
+hccp_firstorder_sub_perc	0.5
+hccp_allow_firstorder_ch	true
+hccp_firstorder_ch_perc		0.5
+
+allowSuboptimalClusterheads true
+
+
+messageQueueSize		400
+
+#HCCP stuff
+
+RECLUSTER_TIME 				0.200
+CHOOSE_CLUSTERHEAD_TIME		0.200
+WAIT_FOR_SCHEDULE_TIME		0.200
+TOTAL_RUN_TIME				10
+ROUNDTABLE_TIME				1 
+NUMBER_OF_SCHEDULED_RUNS  	2
+	
+
+leach_cheat_routing			false
+hccp_cheat_routing			false

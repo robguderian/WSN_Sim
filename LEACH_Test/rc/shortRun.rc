@@ -1,0 +1,17 @@
+screen ssh pelican "cd projects/LEACH_Test ; ./runhccp.sh configs/testRealisticBase.txt configs/all-50ch-10sub-120freq.txt configs/NodeInfoBase.txt"
+screen ssh eagle "cd projects/LEACH_Test ; ./runhccp.sh configs/testRealisticBase.txt configs/10ch-10sub-120freq.txt configs/NodeInfoBase.txt"
+screen ssh cormorant "cd projects/LEACH_Test ; ./runhccp.sh configs/testRealisticBase.txt configs/30ch-10sub-120freq.txt configs/NodeInfoBase.txt"
+screen ssh owl "cd projects/LEACH_Test ; ./runhccp.sh configs/testRealisticBase.txt configs/50ch-10sub-120freq.txt configs/NodeInfoBase.txt"
+screen ssh robin "cd projects/LEACH_Test ; ./runleach.sh configs/testRealisticBase.txt configs/10ch-10sub-120freq.txt configs/NodeInfoBase.txt"
+screen ssh rookery "cd projects/LEACH_Test ; ./runleach.sh configs/testRealisticBase.txt configs/30ch-10sub-120freq.txt configs/NodeInfoBase.txt"
+screen ssh falcon "cd projects/LEACH_Test ; ./runleach.sh configs/testRealisticBase.txt configs/50ch-10sub-120freq.txt configs/NodeInfoBase.txt"
+
+screen ssh wren "cd projects/LEACH_Test ; ./runleach.sh Sparse500x500SuboptimalNoSleep.txt"
+screen ssh loon "cd projects/LEACH_Test ; ./runhccp.sh Sparse500x500SuboptimalNoSleep.txt"
+
+screen ssh oriole "cd projects/LEACH_Test ; ./runleach.sh ./hetero_config/testRealisticBase.txt hetero_config/all-50ch-10sub-360freq.txt hetero_config/NodeInfoBase.txt"
+screen ssh nuthatch "cd projects/LEACH_Test ; ./runhccp.sh ./hetero_config/testRealisticBase.txt hetero_config/all-50ch-10sub-360freq.txt hetero_config/NodeInfoBase.txt"
+screen ssh heron "cd projects/LEACH_Test ; ./runhccp.sh ./hetero_config/testRealisticBase.txt hetero_config/50ch-10sub-360freq.txt hetero_config/NodeInfoBase.txt"
+
+
+screen bash

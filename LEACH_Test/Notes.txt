@@ -1,0 +1,99 @@
+
+Notes:
+
+Baud is really bps
+
+Collisions are counted at the reciever. A collision can be any message a 
+node didn't get, even if it's not for that node.
+
+Connections are defined to be 1-directional. The power of the sender radio will define
+which nodes can hear it's transmissions.
+
+Messages will be kept as pointers in the nodes that are holding them.
+This means that >1 node can have that message at the same time. It is then possible to track 
+how many times the message has reached the sink.
+Once the message has reached the sink, and is no longer in the queue of any node it can 
+be cleaned up.
+
+The network will be 2-D, though the only ranging difference will be the pythegorian theorem, and the 
+point the node is stored.
+
+Movement is possible. If a node moves, all links will be reassessed.
+
+
+All sending logic should be done in nodes inherited nodes in the 'network' .
+
+
+schedule packet will be of the form timetorun;id=delay;id=delay
+
+"CH"+this.id + "; "+this.beaconRank+";" + timeThisHasBeenAlive
+
+
+HCCP:
+Metrics: known neighbour count (either fake it, or honestly [via the adjacney list or via overheard messages])
+power
+Type (hard-coded)
+
+how many motes are in range for an arbitary space.
+ - assuming randomly generated landscape
+ - A frequency of motes...can say how many motes are in a square foot (or unit)
+ - then, a radio has an area it covers, so we can say there are likely n motes in that space.
+
+
+Clusterhead candidates use CC messages
+
+
+Queryable battery
+- sucked in omnet due to events having ids. I don't have that problem.
+Every second, do an update. Take a small amount of load. Listening has costs... sending has costs.
+Put in the superclass so everything gets it.
+
+
+TODO 
+-- with opt outs, Err. Keep the whole schedule? Just listen to everyone that's talking?
+
+
+implement 'self awareness' (cost of sensors - hard coded? subclasses?)
+messageQueue size
+
+
+Long term, long runtime networks
+ - big batteries
+ - long runtimes
+ - deep sleep
+ - short roundtable
+ 
+short, quick networks
+ - short runtimes
+ - fast beacons
+ - somewhat long roundtable (beacon sharing) 
+
+
+Have a 'send to sink' stage.
+
+Count messages successfully sent after n% of the network has died. Needs to add 
+a new flag in the messages to do this.
+
+
+Multihop, then long sleep. Do 5 - 10 rounds to push data to the sink,
+then sleep for a long time
+
+
+Long lived : multiple runtimes, long sleeps
+short : few , short runtimes.
+
+
+Leach was outperforming HCCP. That's because shitty nodes can have better beacons.
+Make a 'care' time. After hearing your first CH, listen for a certain amount of time... then stop listening.
+
+TODO add message latency
+
+
+
+Strawman with unlimited queues has much better received rates. 1st order motes died sooner with leach?
+
+TODO? Try to make the goodness delay also be the clusterhead frequency.
+
+
+
+

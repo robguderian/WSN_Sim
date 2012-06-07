@@ -1,0 +1,5 @@
+screen ssh rookery "cd projects/LEACH_Test/ ; ./runhccp.sh bigNetworkSuboptimalNoSleep-all.txt"
+screen ssh eagle "cd projects/LEACH_Test/ ; ./runhccp.sh bigNetworkSuboptimalNoSleep-FO.txt"
+screen ssh sparrow "cd projects/LEACH_Test/ ; ./runhccp.sh bigNetworkBigSpaceSubNo.txt"
+screen ssh robin "cd projects/LEACH_Test/ ; ./runleach.sh bigNetworkBigSpaceSubNo.txt"
+screen bash

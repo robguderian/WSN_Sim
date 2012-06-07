@@ -1,0 +1,7 @@
+screen ssh eagle "cd tempProject ; ./runhccp2Config.sh One-offs/QueueVsRandomHetero/testRealisticBase.txt One-offs/QueueVsRandomHetero/NodeInfoBase-higherFreq.txt One-offs/QueueVsRandomHetero/p1.txt reps/100.txt"
+screen ssh hawk "cd tempProject ; ./runhccp2Config.sh One-offs/QueueVsRandomHetero/testRealisticBase.txt One-offs/QueueVsRandomHetero/NodeInfoBase-higherFreq.txt One-offs/QueueVsRandomHetero/p2.txt reps/100.txt"
+screen ssh duck "cd tempProject ; ./runhccp2Config.sh One-offs/QueueVsRandomHetero/testRealisticBase.txt One-offs/QueueVsRandomHetero/NodeInfoBase-higherFreq.txt One-offs/QueueVsRandomHetero/p3.txt reps/100.txt"
+screen ssh pelican "cd tempProject ; ./runhccp2Config.sh One-offs/QueueVsRandomHetero/testRealisticBase.txt One-offs/QueueVsRandomHetero/NodeInfoBase-higherFreq.txt One-offs/QueueVsRandomHetero/p4.txt reps/100.txt"
+
+
+screen bash

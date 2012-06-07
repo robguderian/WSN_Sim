@@ -1,0 +1,23 @@
+[sensor normal]
+count					1000
+battery					1000
+messageQueueSize		999999
+sensorMission			1
+
+[sensor router]
+count					100
+sensorReadingFreq		0
+battery					2500
+messageQueueSize		999999
+sensorMission			0
+
+#[sensor nearBSRouter]
+#count                                   10
+#sensorReadingFreq               0
+#battery                                 2500
+#messageQueueSize                99999999999
+#sensorMission                   0
+#minX				600
+#minY				600
+#maxX				1200
+#maxY				1200

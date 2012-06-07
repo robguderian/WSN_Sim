@@ -1,0 +1,12 @@
+
+configName				30ch-10sb-360Strawman
+
+sensorReadingFreq		360
+
+clusterheadChance		0.30
+
+#hccp things
+suboptimalClusterheadPercentage 0.10
+
+hccp_all_clusterheads 		false
+hccp_goodness				true

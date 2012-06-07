@@ -1,0 +1,11 @@
+
+configName				All-10ch-10sb-840freq
+
+sensorReadingFreq		840
+
+clusterheadChance		0.10
+
+#hccp things
+suboptimalClusterheadPercentage 0.10
+
+hccp_all_clusterheads 		true

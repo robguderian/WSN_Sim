@@ -1,0 +1,7 @@
+screen ssh finch "cd tempProject ; ./runhccp2Config.sh One-offs/SensorVsRandom/testRealisticBase.txt One-offs/SensorVsRandom/NodeInfoBase.txt One-offs/SensorVsRandom/p1.txt reps/10.txt"
+screen ssh killdeer "cd tempProject ; ./runhccp2Config.sh One-offs/SensorVsRandom/testRealisticBase.txt One-offs/SensorVsRandom/NodeInfoBase.txt One-offs/SensorVsRandom/p2.txt reps/10.txt"
+screen ssh loon "cd tempProject ; ./runhccp2Config.sh One-offs/SensorVsRandom/testRealisticBase.txt One-offs/SensorVsRandom/NodeInfoBase.txt One-offs/SensorVsRandom/p3.txt reps/10.txt"
+screen ssh robin "cd tempProject ; ./runhccp2Config.sh One-offs/SensorVsRandom/testRealisticBase.txt One-offs/SensorVsRandom/NodeInfoBase.txt One-offs/SensorVsRandom/p4.txt reps/10.txt"
+
+
+screen bash

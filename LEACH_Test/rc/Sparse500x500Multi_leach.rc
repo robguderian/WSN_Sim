@@ -1,0 +1,14 @@
+screen ssh eagle "cd projects/LEACH_Test ; ./runleach_multi.sh Sparse500x500SuboptimalNoSleep.txt multi_10/multi_10_01.txt"
+screen ssh robin "cd projects/LEACH_Test ; ./runleach_multi.sh Sparse500x500SuboptimalNoSleep.txt multi_10/multi_10_02.txt"
+screen ssh finch "cd projects/LEACH_Test ; ./runleach_multi.sh Sparse500x500SuboptimalNoSleep.txt multi_10/multi_10_03.txt"
+screen ssh duck "cd projects/LEACH_Test ; ./runleach_multi.sh Sparse500x500SuboptimalNoSleep.txt multi_10/multi_10_04.txt"
+screen ssh grouse "cd projects/LEACH_Test ; ./runleach_multi.sh Sparse500x500SuboptimalNoSleep.txt multi_10/multi_10_05.txt"
+screen ssh killdeer "cd projects/LEACH_Test ; ./runleach_multi.sh Sparse500x500SuboptimalNoSleep.txt multi_10/multi_10_06.txt"
+screen ssh grebe "cd projects/LEACH_Test ; ./runleach_multi.sh Sparse500x500SuboptimalNoSleep.txt multi_10/multi_10_07.txt"
+screen ssh cormorant "cd projects/LEACH_Test ; ./runleach_multi.sh Sparse500x500SuboptimalNoSleep.txt multi_10/multi_10_08.txt"
+screen ssh wren "cd projects/LEACH_Test ; ./runleach_multi.sh Sparse500x500SuboptimalNoSleep.txt multi_10/multi_10_09.txt"
+screen ssh loon "cd projects/LEACH_Test ; ./runleach_multi.sh Sparse500x500SuboptimalNoSleep.txt multi_10/multi_10_10.txt"
+
+
+
+screen bash

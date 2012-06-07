@@ -1,0 +1,11 @@
+# for multi runs
+chChanceFrom		0.11
+chChanceTo			0.2
+chChanceIncrement	0.01
+subFrom				0.01
+subTo				1
+subIncrement		0.01
+
+writeCharts 		false
+runUntilPercDead		1
+writeNodeData		false

@@ -1,0 +1,7 @@
+screen ssh duck "cd tempProject ; ./runhccp2Config.sh One-offs/BatteryVsRandomHetero/testRealisticBase.txt One-offs/BatteryVsRandomHetero/NodeInfoBase.txt One-offs/BatteryVsRandomHetero/p1.txt reps/10.txt"
+screen ssh grouse "cd tempProject ; ./runhccp2Config.sh One-offs/BatteryVsRandomHetero/testRealisticBase.txt One-offs/BatteryVsRandomHetero/NodeInfoBase.txt One-offs/BatteryVsRandomHetero/p2.txt reps/10.txt"
+screen ssh falcon "cd tempProject ; ./runhccp2Config.sh One-offs/BatteryVsRandomHetero/testRealisticBase.txt One-offs/BatteryVsRandomHetero/NodeInfoBase.txt One-offs/BatteryVsRandomHetero/p3.txt reps/10.txt"
+screen ssh nuthatch "cd tempProject ; ./runhccp2Config.sh One-offs/BatteryVsRandomHetero/testRealisticBase.txt One-offs/BatteryVsRandomHetero/NodeInfoBase.txt One-offs/BatteryVsRandomHetero/p4.txt reps/10.txt"
+
+
+screen bash

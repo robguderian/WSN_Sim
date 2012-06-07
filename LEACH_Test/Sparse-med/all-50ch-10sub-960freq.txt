@@ -1,0 +1,12 @@
+
+configName				All-10sb-sparse-med
+
+sensorReadingFreq		1200
+
+clusterheadChance		0.10
+
+#hccp things
+suboptimalClusterheadPercentage 0.30
+
+hccp_all_clusterheads 		true
+hccp_goodness			false

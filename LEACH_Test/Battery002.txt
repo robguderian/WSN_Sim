@@ -1,0 +1,3 @@
+batteryUpdateTime		0.02
+onDraw					0.00050
+offDraw					0.00004

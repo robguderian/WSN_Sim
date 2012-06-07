@@ -1,0 +1,11 @@
+
+configName				50ch-10sb-120hetero_freq
+
+sensorReadingFreq		120
+
+clusterheadChance		0.50
+
+#hccp things
+suboptimalClusterheadPercentage 0.10
+
+hccp_all_clusterheads 		false

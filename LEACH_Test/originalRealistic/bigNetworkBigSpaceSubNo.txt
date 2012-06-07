@@ -1,0 +1,56 @@
+
+configName				BigNetworkSuboptimalNoSinkSleep
+simTime 				999999999
+
+baud					54000
+
+verbose					false
+
+battery					1000
+
+# for the valid space
+maxX					2000	
+maxY					2000	
+
+
+#only valid once
+baseStationX			500
+baseStationY  			500
+
+sensorReadingFreq		60
+
+clusterheadChance		0.10
+
+#hccp things
+suboptimalClusterheadPercentage 0.05
+allowSinkSleep					false
+allowSuboptimalClusterheads 	true
+
+messageQueueSize		100
+
+#HCCP stuff
+
+RECLUSTER_TIME 				0.300
+CHOOSE_CLUSTERHEAD_TIME		0.300
+WAIT_FOR_SCHEDULE_TIME		0.300
+TOTAL_RUN_TIME				60
+ROUNDTABLE_TIME				5 
+NUMBER_OF_SCHEDULED_RUNS  	5
+	
+#LEACH stuff
+#RECLUSTER_TIME				0.300
+#CHOOSE_CLUSTERHEAD_TIME		0.300
+#WAIT_FOR_SCHEDULE_TIME		0.300
+#TOTAL_RUN_TIME				300
+
+#must be after new defaults
+[sensor normal]
+baud					54000
+range					100
+battery					1000
+onDraw					2
+offDraw					0.5
+count					5000
+messageQueueSize		50
+sensorReadingFreq		120
+clusterheadChance		0.12

@@ -1,0 +1,33 @@
+screen ssh rookery "cd projects/LEACH_Test/ ; ./runhccp.sh bigNetworkSuboptimalNoSleep-all.txt"
+screen ssh eagle "cd projects/LEACH_Test/ ; ./runhccp.sh bigNetworkSuboptimalNoSleep-FO.txt"
+screen ssh sparrow "cd projects/LEACH_Test/ ; ./runhccp.sh bigNetworkSuboptimalNoSleep.txt"
+screen ssh robin "cd projects/LEACH_Test/ ; ./runleach.sh bigNetworkBigSpaceSubNo.txt" 
+
+
+#screen ssh finch "cd projects/LEACH_Test/ ; ./runhccp.sh testRealistic20-80.txt"
+#screen ssh duck "cd projects/LEACH_Test/ ; ./runhccp.sh testRealistic20-90.txt"
+#screen ssh grouse "cd projects/LEACH_Test/ ; ./runhccp.sh testRealistic20-40-all.txt"
+#screen ssh killdeer "cd projects/LEACH_Test/ ; ./runhccp.sh testRealistic20-50-all.txt"
+#screen ssh heron "cd projects/LEACH_Test/ ; ./runhccp.sh testRealistic20-60-all.txt"
+#screen ssh grebe "cd projects/LEACH_Test/ ; ./runhccp.sh testRealistic20-70-all.txt"
+#screen ssh cormorant "cd projects/LEACH_Test/ ; ./runhccp.sh testRealistic20-80-all.txt"
+#screen ssh crow "cd projects/LEACH_Test/ ; ./runhccp.sh testRealistic20-90-all.txt"
+#screen ssh sandpiper "cd projects/LEACH_Test/ ; ./runleach.sh Sparse500x500SuboptimalNoSleep.txt"
+#screen ssh woodpecker "cd projects/LEACH_Test/ ; ./runhccp.sh Sparse500x500SuboptimalNoSleep.txt"
+#screen ssh wren "cd projects/LEACH_Test/ ; ./runleach.sh 200x200SuboptimalNoSleep.txt"
+#screen ssh loon "cd projects/LEACH_Test/ ; ./runhccp.sh 200x200SuboptimalNoSleep.txt"
+#screen ssh nuthatch "cd projects/LEACH_Test/ ; ./runleach.sh testRealisticSuboptimalNoSleep.txt"
+#screen ssh oriole "cd projects/LEACH_Test/ ; ./runleach.sh ./testRealisticSuboptimalNoSleep15.txt"
+#screen ssh osprey "cd projects/LEACH_Test/ ; ./runleach.sh ./testRealisticSuboptimalNoSleep20.txt" 
+#screen ssh owl "cd projects/LEACH_Test/ ;  ./runleach.sh ./testRealisticSuboptimalNoSleep25.txt"
+#screen ssh pelican  "cd projects/LEACH_Test/ ; ./runhccp.sh testRealistic20-10.txt"
+#screen ssh grebe "cd projects/LEACH_Test/ ; ./runhccp.sh testRealistic20-10-all.txt"
+#screen ssh falcon   "cd projects/LEACH_Test/ ; ./runhccp.sh testRealistic20-20.txt"
+#screen ssh heron  "cd projects/LEACH_Test/ ; ./runhccp.sh testRealistic20-20-all.txt"
+#screen ssh kingfisher  "cd projects/LEACH_Test/ ; ./runhccp.sh testRealistic20-30.txt"
+#screen ssh sandpiper "cd projects/LEACH_Test/ ; ./runhccp.sh testRealistic20-30-all.txt"
+#screen ssh woodpecker  "cd projects/LEACH_Test/ ; ./runhccp.sh testRealistic20-40.txt"
+#screen ssh loon  "cd projects/LEACH_Test/ ; ./runhccp.sh testRealistic20-40-all.txt"
+
+screen bash
+

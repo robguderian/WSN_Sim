@@ -1,0 +1,11 @@
+
+configName				10ch-10sb-1080hetero_freq
+
+sensorReadingFreq		1080
+
+clusterheadChance		0.10
+
+#hccp things
+suboptimalClusterheadPercentage 0.10
+
+hccp_all_clusterheads 		false

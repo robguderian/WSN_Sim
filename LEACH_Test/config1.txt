@@ -1,0 +1,58 @@
+
+configName				TestConfig
+
+sinkBaud	
+sensorBaud
+
+verbose
+
+sinkRange
+sensorRange
+
+battery
+onDraw
+offDraw
+
+# for the valid space
+maxX
+maxY
+
+numberOfSensorMotes
+numberOfBaseStations
+
+#only valid once
+baseStationX
+baseStationY  
+
+sensorReadingFreq
+
+clusterheadChance
+
+messageQueueSize
+
+#HCCP stuff
+
+RECLUSTER_TIME 				0.300
+CHOOSE_CLUSTERHEAD_TIME		0.300
+WAIT_FOR_SCHEDULE_TIME		0.300
+TOTAL_RUN_TIME				60
+ROUNDTABLE_TIME				5 
+NUMBER_OF_SCHEDULED_RUNS  	5
+	
+#LEACH stuff
+RECLUSTER_TIME				0.300
+CHOOSE_CLUSTERHEAD_TIME		0.300
+WAIT_FOR_SCHEDULE_TIME		0.300
+TOTAL_RUN_TIME				300
+
+#must be after new defaults
+[sensor name]
+baud
+range
+battery
+onDraw
+offDraw
+count
+messageQueueSize
+readingFreq
+clusterheadChance

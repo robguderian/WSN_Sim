@@ -1,0 +1,7 @@
+package leach_test;
+
+public enum LeachStage {
+	RECLUSTER, CHOOSE_CLUSTER,  WAIT_FOR_SCHEDULE, WAIT_FOR_TURN, RUN, WAIT_FOR_RECLUSTER, SLEEP, DEAD
+}
+
+

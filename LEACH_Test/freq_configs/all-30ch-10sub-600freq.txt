@@ -1,0 +1,11 @@
+
+configName				All-30ch-10sb-600freq
+
+sensorReadingFreq		600
+
+clusterheadChance		0.30
+
+#hccp things
+suboptimalClusterheadPercentage 0.10
+
+hccp_all_clusterheads 		true

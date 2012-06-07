@@ -1,0 +1,9 @@
+[sensor normal]
+count					700
+messageQueueSize		100
+sensorReadingFreq		4000
+sensorMission			0.80
+battery                                 400
+
+
+

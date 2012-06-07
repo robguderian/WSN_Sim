@@ -1,0 +1,28 @@
+[sensor normal]
+count					500
+battery			1000
+#messageQueueSize	200
+messageQueueSize       999999
+sensorMission		0.75
+clusterheadChance	0.1
+suboptimalClusterheadPercentage	0.6
+
+[sensor small]
+count			1000
+battery			400
+#messageQueueSize	50
+messageQueueSize       999999
+sensorMission 		1
+clusterheadChance       0.05
+suboptimalClusterheadPercentage 0.5
+
+[sensor router]
+count		900
+sensorReadingFreq	0
+battery			2000
+#messageQueueSize	3000
+messageQueueSize        999999
+sensorMission		0
+clusterheadChance       0.3
+suboptimalClusterheadPercentage 0.5
+evenlySpace                     true

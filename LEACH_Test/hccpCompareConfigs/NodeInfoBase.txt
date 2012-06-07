@@ -1,0 +1,46 @@
+configName 				goodnessEvenHetero_hccp_comare
+[sensor normal]
+count					2000
+messageQueueSize		100
+sensorReadingFreq		5000
+sensorMission			0.1
+battery                 500
+care_if_alive           true
+
+
+[sensor router]
+count					324
+sensorReadingFreq		0
+battery					7500
+messageQueueSize		2000
+sensorMission			0
+care_if_alive           false
+evenlySpace             true
+care_if_alive           true
+
+
+[sensor expensive]
+count					50
+sensorReadingFreq		5000
+battery					500
+messageQueueSize		1000
+sensorMission			0.9
+care_if_alive           true
+
+
+[sensor veryExpensive]
+count					25
+sensorReadingFreq		8000
+battery					7500
+messageQueueSize		2000
+sensorMission			0.95
+care_if_alive           true
+
+[sensor superExpensive]
+count					15
+sensorReadingFreq		9000
+battery					400
+messageQueueSize		500
+sensorMission			1
+care_if_alive           true
+

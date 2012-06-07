@@ -1,0 +1,7 @@
+screen ssh finch "cd projects/LEACH_Test ; ./runhccp2Config.sh One-offs/BatteryVsRandomHetero/testRealisticBase.txt One-offs/BatteryVsRandomHetero/NodeInfoBase.txt One-offs/BatteryVsRandomHetero/p1.txt reps/100.txt"
+screen ssh killdeer "cd projects/LEACH_Test ; ./runhccp2Config.sh One-offs/BatteryVsRandomHetero/testRealisticBase.txt One-offs/BatteryVsRandomHetero/NodeInfoBase.txt One-offs/BatteryVsRandomHetero/p2.txt reps/100.txt"
+screen ssh loon "cd projects/LEACH_Test ; ./runhccp2Config.sh One-offs/BatteryVsRandomHetero/testRealisticBase.txt One-offs/BatteryVsRandomHetero/NodeInfoBase.txt One-offs/BatteryVsRandomHetero/p3.txt reps/100.txt"
+screen ssh robin "cd projects/LEACH_Test ; ./runhccp2Config.sh One-offs/BatteryVsRandomHetero/testRealisticBase.txt One-offs/BatteryVsRandomHetero/NodeInfoBase.txt One-offs/BatteryVsRandomHetero/p4.txt reps/100.txt"
+
+
+screen bash
